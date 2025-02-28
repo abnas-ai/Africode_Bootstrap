@@ -5,16 +5,413 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
 </head>
+
+
 <body>
-    <h1>My Project</h1>
+    <nav class="navbar navbar-expand-md bg-body-secondary">
+        <div class="container">
+<img src="https://plus.unsplash.com/premium_photo-1683887064255-1c428d0b3934?q=80&w=1343&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="logo" class="navbar-brand img-fluid" width="30" height="24">
+
+
+            <a href="#" class="navbar-brand">E-Shop</a>
+<button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#nav-links">
+    <span class="navbar-toggler-icon"></span>
+</button>
+            <div class="collapse navbar-collapse" id="nav-links">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <a href="#" class="nav-link active">Home</a>
+    </li>
+    <li class="nav-item">
+        <a href="#newarrivals" class="nav-link">New Arrivals</a>
+    </li>
+    <li class="nav-item">
+        <a href="#deals" class="nav-link">Deals</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a href="#categories" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Categories</a>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Electronics</a></li>
+            <li><a href="#" class="dropdown-item">Fashion</a></li>
+            <li><a href="#" class="dropdown-item">Home & Kitchen</a></li>
+            <li><a href="#" class="dropdown-item">Books</a></li>
+            <li><a href="#" class="dropdown-item">Sports</a></li>
+        </ul>
+    </li>
+    <form class="d-flex" role="search">
+        <input type="search" class="form-control" placeholder="search">
+            <button class="btn btn-outline-success" type="submit" >Search</button>
+            </form>
+    
+</ul>
+<div class="d-flex">
+
+    <a href="" class="btn btn-outline-dark mx-1 position-relative">
+        <span class="position-absolute top-0 start-100 translate-middle bg-danger border border-light rounded-circle">
+            <span class="text">1</span>
+          </span>
+        
+        <i class="bi bi-cart4 fs-3 ms-2 text-info "></i>
+    </a>
+
+    
+
+    <a href="" class="btn btn-outline-secondary m-1">
+        <i class="bi bi-suit-heart fs-2 "></i>
+    </a>
+
+    <a href="" class="btn btn-outline-secondary mx-1">
+        <i class="bi bi-person m-1 fs-1"></i>
+    </a>
+    
+
+</div>
+
+            </div>
+        </div>
+
+
+    </nav>
+    <main>
+<section>
+<div class="container">
+<div class="row">
+<div class="col-4">
+    <h1>Welcome to E-Shop</h1>
+    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quisquam consequatur atque similique earum ducimus tenetur, unde, nisi totam exercitationem illo ea amet consectetur. Repellendus distinctio earum suscipit quaerat qui.</p>
+    <button class="btn btn-primary">Shop Now</button>
+</div>
+
+<div class="col-8">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://plus.unsplash.com/premium_photo-1714226833097-93888dcc63cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9ubGluZSUyMHNob3BwaW5nJTJDbmV3JTIwYXJyaXZhbHN8ZW58MHx8MHx8fDA%3D" class="d-block w-100 img-fluid" alt="Slide 1">
+            <div class="carousel-caption mb-lg-5 d-none d-md-block">
+              <h5 class="text-dark display-1">New Arrivals</h5>
+              <p class="text-dark">Some representative placeholder content for the first slide.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1045462512/photo/modern-computer-keyboard-with-a-shopping-carts-on-a-black-friday-button.webp?a=1&b=1&s=612x612&w=0&k=20&c=MKZN16wslmV0h-xweOjKJ1_PqIEKELwNYCPg8QC8m3g=" class="d-block w-100 img-fluid" alt="Slide 2">
+            <div class="carousel-caption mb-lg-5 d-none d-md-block">
+              <h5 class="text-dark display-1">Black Friday</h5>
+              <p class="text-dark">Some representative placeholder content for the second slide.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://plus.unsplash.com/premium_photo-1723867344540-664e13b9a863?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b25saW5lJTIwc2hvcHBpbmclMkNkaXNjb3VudCUyMDUwJTI1fGVufDB8fDB8fHww" class="d-block w-100 img-fluid" alt="Slide 3">
+            <div class="carousel-caption mb-lg-5 d-none d-md-block">
+              <h5 class="text-dark display-1">Discount</h5>
+              <p class="text-dark ">Some representative placeholder content for the third slide.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+</div>
+
+
+</div>
+</section>
+</main>
+
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Featured Products</h2>
+<div class="row g-4">
+  <div class="col-12 col-md-6 col-lg-3">
+<div class="card h-100">
+<div class="badge bg-danger position-absolute top-0 end-0 m-2">Sale</div>
+
+  <img src="https://media.istockphoto.com/id/2087499309/photo/brown-mens-leather-shoes-on-the-wooden-floor-near-the-mirror.jpg?s=612x612&w=0&k=20&c=YgYLFYvnpOvmBY88ToP1kE8mVOBQm05y5ptFWv3eYLg=" class="card-img-top w-50" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Nike Kobe</h5> <h5 class="ms-lg-4 text-success">
+      <div class="d-flex justify-content-between align-items-center-mb-2">
+        <p class="card-text"><span class="fw-4 text-success">Kshs. 4,000</span> <small class="text-decoration-line-through text-muted">Kshs. 6000</small></p>
+        <div class="d-flex">
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-fill text-warning"></i>
+          <i class="bi bi-star-half"></i>
+          <small class="ms-1">(58)</small>
+
+        </div>
+      </div>
+      
+   
+    <p class="card-text text-muted small mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur saepe ea pariatur amet mollitia cum, ipsum eveniet hic repellendus, expedita voluptatum illum. Dicta, perferendis consectetur? Soluta adipisci totam cumque fuga?</p>
+  <button class="btn btn-primmary bg-success">
+
+    <i class="bi bi-cart-plus">Add to Cart</i>
+  </button>
+  </div>
+</div>
+</div>
+
+
+<div class="col-12 col-md-6 col-lg-3">
+  <div class="card h-100">
+  <div class="badge bg-danger position-absolute top-0 end-0 m-2">Sale</div>
+  
+    <img src="https://media.istockphoto.com/id/2087499309/photo/brown-mens-leather-shoes-on-the-wooden-floor-near-the-mirror.jpg?s=612x612&w=0&k=20&c=YgYLFYvnpOvmBY88ToP1kE8mVOBQm05y5ptFWv3eYLg=" class="card-img-top w-50" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nike Kobe</h5> <h5 class="ms-lg-4 text-success">
+        <div class="d-flex justify-content-between align-items-center-mb-2">
+          <p class="card-text"><span class="fw-4 text-success">Kshs. 4,000</span> <small class="text-decoration-line-through text-muted">Kshs. 6000</small></p>
+          <div class="d-flex">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half"></i>
+            <small class="ms-1">(58)</small>
+  
+          </div>
+        </div>
+        
+     
+      <p class="card-text text-muted small mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur saepe ea pariatur amet mollitia cum, ipsum eveniet hic repellendus, expedita voluptatum illum. Dicta, perferendis consectetur? Soluta adipisci totam cumque fuga?</p>
+    <button class="btn btn-primmary bg-success" data-bs-toggle="modal" data-bs-target="#addToCart">
+  
+      <i class="bi bi-cart-plus">Add to Cart</i>
+    </button>
+    </div>
+  </div>
+  </div>
 
 
 
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+
+
+</div>
+
+  </div>
+</section>
+
+
+
+<main>
+<section>
+  <div class="container">
+    <h1 class="display-1">Explore Our Products</h1>
+<div class="row">
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/1193153885/photo/samsung-galaxy-note-10-on-a-wooden-table.jpg?s=612x612&w=0&k=20&c=YloWawNCJO6MPAxiyNuCeFuCAKgPSBeTK4VCwtw5-hY=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Samsung S23</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>  150,000</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/1153649950/photo/top-view-of-two-pairs-of-suede-sneakers-with-neon-laces-on-black-background.jpg?s=612x612&w=0&k=20&c=rXysahwT86zlkzPL7HSCuXi-u8OQ2cuk4EB1NqqwopU=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Neon shoes-nike</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>3500</h5>
+      
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/2171717506/photo/black-wireless-headphones-isolated-on-white.jpg?s=612x612&w=0&k=20&c=ZRnPuG-9vC8pnEMDpWfI507ChmTPLntgxww-6cL3pYs=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Oraimo-Headphones</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>  5000</h5>
+   
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/483551726/photo/samsung-smart-tv-logo.jpg?s=612x612&w=0&k=20&c=Jax2x3eNo1VgA2SPZSPinCU66J9BGG5WAQrMFcYnY1Q=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Samsung Tv</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>  35000</h5>
+    
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/650233226/photo/military-style-watch.jpg?s=612x612&w=0&k=20&c=PknuHX2Dh0SN2JTKF60Ftxowdiwoudc_zTu9Vd2UD-w=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Casio Men Watch</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>1000</h5>
+   
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/486295128/photo/colorful-socks.jpg?s=612x612&w=0&k=20&c=8G1mt_3tYvfHu3QxUVt928JoZpyHaMuNaFh11dCIf04=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Ankle Socks</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>  300</h5>
+    
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/182157353/photo/laptop-in-a-bag.jpg?s=612x612&w=0&k=20&c=bkwyNNYFWgLkB9C9bNPnjHzyBe-Bkn-k6JDL6steEp4=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Laptop Bag</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>  4000</h5>
+     
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://media.istockphoto.com/id/1012522388/photo/flying-glasses.jpg?s=612x612&w=0&k=20&c=L_q2FfL-rCd1evtH3-IPfCw0MNDUI2-vEqWYaGhYtRQ=" class="card-img-top" alt="...">
+    <div class="card-body">
+     
+        <h5 class="card-title">Glass lenses</h5> <h5 class="ms-lg-4 text-success"><span class="text-dark">Ksh</span>  15000</h5>
+    
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+</main>
+
+
+
+<main>
+  
+</main>
+
+<section>
+  <div class="container">
+<h5 class="text-center">Frequently Asked Questions</h5>
+<div class="accordion accordion-flush" id="faquestions">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#faquestions">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faquestions">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#faquestions">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <h1 class="display-5 text-center ">E-shop</h1>
+    <hr>
+
+    <div class="row">
+<!-- <div class="col-12 col-md-4"> -->
+<ul class="list-unstyled d-flex">
+<li><a href="#" class="text-white text-decoration-none mx-4">Conditions of use</a></li>
+<li><a href="#" class="text-white text-decoration-none mx-4">Privacy notice</a></li>
+<li><a href="#" class="text-white text-decoration-none mx-4">Interests-based ads</a></li>
+<li><a href="#" class="text-white text-decoration-none mx-4">copyright &copy; 2025 E-shop</a></li>
+<li><a href="" class="text-white text-decoration-none mx-2"><i class="bi bi-facebook"></i></a></li>
+<li><a href="" class="text-white text-decoration-none mx-2"><i class="bi bi-whatsapp"></i></a></li>
+<li><a href="" class="text-white text-decoration-none mx-2"><i class="bi bi-twitter-x"></i></a></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+    </div>
+
+
+  </div>
+  
+</footer>
+<div class="modal fade" id="addToCart" tabindex="-1" aria-labelledby="addToCartLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="addToCartLabel">Your Cart</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        <img src="https://media.istockphoto.com/id/650233226/photo/military-style-watch.jpg?s=612x612&w=0&k=20&c=PknuHX2Dh0SN2JTKF60Ftxowdiwoudc_zTu9Vd2UD-w=" class="card-img-top w-50" alt="...">
+        <div class="card-body">
+        <h5>Mens watch</h5>
+        <h5 class="text-success"><span class="text-dark">Ksh</span>4000</h5>
+        <form action="">
+          <label for="quanttity">
+            <input type="number" name="quantity" id="quantity" class="form-control w-25" placeholder="1">
+          </label>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
